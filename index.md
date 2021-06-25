@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## Embedded Components Documentation
 
-You can use the [editor on GitHub](https://github.com/Navexa/documentation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Embedded components are custom built web components, that integrate with your Navexa portfolio 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Embedded Component Types
 
-### Markdown
+We currently provide 3 types of Components.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* A Portfolio Component
+<img src="/assets/images/portfolio-expanded.png" alt="drawing" width="200"/>
+<!-- ![Portfolio](/assets/images/portfolio-expanded.png) -->
 
-```markdown
-Syntax highlighted code block
+* A Chart component
+![A Chart](/assets/images/chart-tooltip.png)
 
-# Header 1
-## Header 2
-### Header 3
+Each component has several configuration and customisation properties, which shall be discussed in detail for the rest of this document.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+# The portfolio component
+## Regular
 
-**Bold** and _Italic_ and `Code` text
+Settings:
+* Include Trades
+* Columns:
+    * Total Performance Bar:
+        * Capital Gain %
+        * Dividend Return %
+        * Currency Gain %
+        * Total Performance %
 
-[Link](url) and ![Image](src)
-```
+* Date Preset: (all-time | today | last-7-days | last-30-days | this-month | past year | year-to-date | last-two-years | last-3-years)
+* From date: _performance will be calculated with this as the start date_
+    * if not set, defaults to first trade date
+* To date: _performance will be calculated with this as the end date_
+    * if not set, it will default to the current date
+* Include Closed Positions: this one needs a blog link and a help page.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Publisher
 
-### Jekyll Themes
+# 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Navexa/documentation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Chart
+Settings:
+* Include Benchmark: Plots your configured benchmark against your portfolio
+    * **note**: Professional feature
+* Date Preset: (all-time | today | last-7-days | last-30-days | this-month | past year | year-to-date | last-two-years | last-3-years)
+* From date: _performance will be calculated with this as the start date_
+    * if not set, defaults to first trade date
+* To date: _performance will be calculated with this as the end date_
+    * if not set, it will default to the current date
+* Include Closed Positions: this one needs a blog link and a help page.
