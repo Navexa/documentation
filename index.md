@@ -30,7 +30,15 @@ Each component has several configuration and customisation properties, which sha
     * Currency Gain %
     * Total Performance %
 * **Date Preset:** 
-    * Available presets: **all-time (default)** | today | last-7-days | last-30-days | this-month | past year | year-to-date | last-two-years | last-3-years
+    - **all-time (default)**
+    - today
+    - last-7-days
+    - last-30-days
+    - this-month
+    - past-year
+    - year-to-date
+    - last-two-years
+    - last-3-years
 * **From date:**
     * Performance will be calculated with this as the start date
     * If not set, defaults to first trade date
@@ -65,7 +73,15 @@ Each component has several configuration and customisation properties, which sha
 
 * __Include Benchmark **__: Plots your configured benchmark against your portfolio
 * **Date Preset:** 
-    * Available presets: **all-time (default)** | today | last-7-days | last-30-days | this-month | past year | year-to-date | last-two-years | last-3-years
+    - **all-time (default)**
+    - today
+    - last-7-days
+    - last-30-days
+    - this-month
+    - past-year
+    - year-to-date
+    - last-two-years
+    - last-3-years
 * **From date:**
     * Performance will be calculated with this as the start date
     * If not set, defaults to first trade date
@@ -95,7 +111,15 @@ Each component has several configuration and customisation properties, which sha
     * Return %: only available for sell trades
     * Notes
 * **Date Preset:** 
-    * Available presets: **all-time (default)** | today | last-7-days | last-30-days | this-month | past year | year-to-date | last-two-years | last-3-years
+    - **all-time (default)**
+    - today
+    - last-7-days
+    - last-30-days
+    - this-month
+    - past-year
+    - year-to-date
+    - last-two-years
+    - last-3-years
 * **From date:**
     * Performance will be calculated with this as the start date
     * If not set, defaults to first trade date
