@@ -1,15 +1,15 @@
 ## Navexa Embedded Components Documentation
 
-Embedded components are custom built web components, that integrate with your Navexa portfolio to display your _True performance_ in the context of your blog or website.
+Embedded components are custom-built web components that integrate with your Navexa portfolio to display your _true performance_ on your blog or website.
 
 ## Component Types
 
-Navexa currently provides 3 types of Components.
-* Portfolio: Displays your portfolios total performance
-* Chart: displays a chart of your portfolio's total performance %
-* Trades: Displays a list of trades executed in your portfolio
+Navexa currently provides three types of Components.
+* **Portfolio:** Displays your portfolios total performance
+* **Chart:** Displays a chart of your portfolio's total performance %
+* **Trades:** Displays a list of trades executed in your portfolio
 
-Each component has several configuration and customisation properties, which shall be discussed in detail for the rest of this document.
+Each component has several configuration and customisation properties, detailed in this document.
 
 # Portfolio Component
 
@@ -17,8 +17,8 @@ Each component has several configuration and customisation properties, which sha
 ## Settings:
 
 > **Notes:**
-> - Settings must be manually configured by Navexa. Reach out to your Navexa contact to tweak these settings! 
-> - All Columns can be renamed, reordered or hidden.
+> - Settings must be manually configured by Navexa. Reach out to your Navexa contact to adjust these settings! 
+> - All Columns can be **renamed**, **reordered** or **hidden**.
 >
 > ** = Premium publisher feature. Only available upon special request
 
@@ -40,10 +40,10 @@ Each component has several configuration and customisation properties, which sha
     - last-two-years
     - last-3-years
 * **From date:**
-    * Performance will be calculated with this as the start date
+    * Start date for the portfolio performance calculation
     * If not set, defaults to first trade date
 * **To date:** 
-    * Performance will be calculated with this as the end date
+    * Performance will be calculated up until this date
     * If not set, it will default to the current date
 * **Include Closed Positions:** this one needs a blog link and a help page.
 * **Holding Table Columns:**
@@ -66,8 +66,8 @@ Each component has several configuration and customisation properties, which sha
 ## Settings:
 
 > **Notes:**
-> - Settings must be manually configured by Navexa. Reach out to your Navexa contact to tweak these settings! 
-> - All Columns can be renamed, reordered or hidden.
+> - Settings must be manually configured by Navexa. Reach out to your Navexa contact to adjust these settings! 
+> - All Columns can be **renamed**, **reordered** or **hidden**.
 >
 > ** = Premium feature. Only available to paying customers
 
@@ -83,10 +83,10 @@ Each component has several configuration and customisation properties, which sha
     - last-two-years
     - last-3-years
 * **From date:**
-    * Performance will be calculated with this as the start date
+    * Start date for the portfolio performance calculation
     * If not set, defaults to first trade date
 * **To date:** 
-    * Performance will be calculated with this as the end date
+    * Performance will be calculated up until this date
     * If not set, it will default to the current date
 * **Include Closed Positions:** this one needs a blog link and a help page.
 
@@ -98,8 +98,8 @@ Each component has several configuration and customisation properties, which sha
 ## Settings
 
 > **Notes:**
-> - Settings must be manually configured by Navexa. Reach out to your Navexa contact to tweak these settings! 
-> - All Columns can be renamed, reordered or hidden.
+> - Settings must be manually configured by Navexa. Reach out to your Navexa contact to adjust these settings! 
+> - All Columns can be **renamed**, **reordered** or **hidden**.
 >
 > ** = Premium feature. Only available to paying customers
 
@@ -121,24 +121,22 @@ Each component has several configuration and customisation properties, which sha
     - last-two-years
     - last-3-years
 * **From date:**
-    * Performance will be calculated with this as the start date
+    * Start date for the portfolio performance calculation
     * If not set, defaults to first trade date
 * **To date:** 
-    * Performance will be calculated with this as the end date
+    * Performance will be calculated up until this date
     * If not set, it will default to the current date
 * **Include Closed Positions:** this one needs a blog link and a help page.
 
 
 # Customizing Styles
-You might want to make the Embedded Component's styling to match your blog or website. In that case, you are in luck! The components are extremely customisable.
+You might want to change the Embedded Component's styling to match your blog or website. Easy - the components are extremely customisable.
 
-> **Warning**: Although it possible to hide the Navexa logo, any attempts to modify, obstruct or restrict visibility or interactivity are prohibited. Violations of these terms will result in restriction and possible termination of components and other published mediums provided by Navexa.
-> Ye have been warned.
-
+> **Warning**: Although it possible to hide the Navexa logo, any attempts to modify, obstruct or restrict visibility or interactivity are prohibited. Violations of these terms will result in restriction and possible termination of components and other published media provided by Navexa.
 
 ## Wordpress Steps
 1. Navigate to the page where you plan to embed your component
-2. Create a HTML block
+2. Create an HTML block
 ![wordpress html block](/assets/images/wordpress-steps.png)
 3. Create a special style tag
     - Note: You should only need to create the style tag ONCE PER PAGE. Only the first will be used by each embedded component per page.
