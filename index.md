@@ -164,19 +164,24 @@ main {
 </style>
 ```
 
-
 ## Portfolio Styles
 
 ```css
 main {
+    /* Changes the width of the component */
     --nx-width: 600px;
+    /* Only used for special publisher components */
     --nx-publisher-max-width: 850px;
+    /* Changes the maximum height of the holdings list table */
     --nx-holdings-height: 300px;
+    /* Changes the font attributes */
     --nx-font-family: Arial, serif;
     --nx-font-size: 1rem;
     --nx-font-weight: normal;
+    /* Changes the component border radius */
     --nx-border-radius: 5px;
 
+    /* The various colour swatches used over the component */
     --nx-green: #22b922;
     --nx-red: #ff0319;
     --nx-grey: #7e8e9f;
@@ -192,11 +197,13 @@ main {
 
 ```css
 main {
+    /* Changes various font attributes */
     --nx-font-family: Arial, serif;
     --nx-font-size: 0.875rem;
     --nx-font-weight: normal;
     --nx-border-radius: 5px;
 
+    /* The various colour swatches used over the component */
     --nx-green: #22b922;
     --nx-red: #ff0319;
     --nx-grey: #7e8e9f;
@@ -204,23 +211,22 @@ main {
     --nx-text: #333;
     --nx-background: #f4f8fb;
     --nx-border: #e7e7e7;
-
-    --nx-primary: #00bc8c;
-    --nx-secondary: #1db2f5;
 }
 ```
-
 
 ## Trades Styles
 
 ```css
 main {
+    /* Changes the width of the component */
     --nx-width: 600px;
+    /* Changes font attributes */    
     --nx-font-family: Arial, serif;
     --nx-font-size: 0.875rem;
     --nx-font-weight: normal;
     --nx-border-radius: 5px;
 
+    /* The various colour swatches used over the component */
     --nx-green: #22b922;
     --nx-red: #ff0319;
     --nx-grey: #7e8e9f;
@@ -228,7 +234,5 @@ main {
     --nx-text: #333;
     --nx-background: #f4f8fb;
     --nx-border: #e7e7e7;
-    --nx-primary: #00bc8c;
-    --nx-secondary: #1db2f5;
 }
 ```
