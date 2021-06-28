@@ -118,16 +118,22 @@ You might want to make the Embedded Component's styling to match your blog or we
 ![wordpress html block](/assets/images/wordpress-steps.png)
 3. Create a special style tag
     - Note: You should only need to create the style tag ONCE PER PAGE. Only the first will be used by each embedded component per page.
+4. Enter your html embed code
+5. Customize the styles according to the following per-component style-guide below.
+
+Example:
 ```html
 <style id="nvx-styles">
 </style>
 ```
-4. Enter your html embed code
-5. Customize the styles according to the following per-component style-guide below.
 
 ## HTML Steps
 1. Navigate to the html document you plan to embed your component
-2. Create a style tag at the head of your blog/ website, with a tag of `class="nvx-styles"`. Example:
+2. Create a style tag at the head of your blog/ website, with a tag of `class="nvx-styles"`.
+3. Embed your custom component
+4. Customize the styles according to the following per-component style-guide below.
+
+Example:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -145,9 +151,6 @@ You might want to make the Embedded Component's styling to match your blog or we
 </body>
 </html>
 ```
-3. Embed your custom component
-4. Customize the styles according to the following per-component style-guide below.
-
 
 ## CSS Styles
 Each component primarily uses css variables to customise the theme. Each of the variables following can be used to style and decorate the portfolio component:
